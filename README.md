@@ -5,3 +5,4 @@
 
 ## Team Members
 [Ali Raeisdanaei](https://www.eecs.yorku.ca/~aliraeis)
+[Shahaan Khan](https://www.eecs.yorku.ca/~skhan)
