@@ -2,7 +2,7 @@
 
 A small Python project showcasing a **pharmacy ↔ client** refill workflow with simple menus, key generation, and a basic refill API/email flow. Files include separate menus for **clients** and **pharmacies**, a **key generator**, and helpers for **refill API** calls and **refill email** sending. This was created during the Lassonde Games 2021 as a submission.
 
-## ✨ Features
+## Features
 - **Client Menu** (`client_menu.py`): place refill requests, view status, and interact through a simple CLI.
 - **Pharmacy Menu** (`pharmacy_menu.py`): review incoming requests, approve/deny, and manage queue via CLI.
 - **Key Generation** (`keyGenerator.py`): create keys/tokens used by the menus or API helpers.
@@ -11,7 +11,7 @@ A small Python project showcasing a **pharmacy ↔ client** refill workflow with
   - `refill_email.py`: utility functions for sending confirmation/notification emails.
 - **Packaging/Artifacts**: `dist/` (build output, if used), `red_scp/` (supporting scripts/resources).
 
-## 🧱 Project Structure
+## Project Structure
 ```
 LassondeGames2021/
 ├─ client_menu.py        # Client-facing CLI
@@ -72,12 +72,12 @@ python client_menu.py
 python pharmacy_menu.py
 ```
 
-## ⚙️ Configuration Notes
+## Configuration Notes
 - **Keys/Tokens:** Run `keyGenerator.py` first if your menus expect a generated key file or token.
 - **Email:** Update sender, recipients, and SMTP details inside `refill_email.py` (or read them from environment variables).
 - **API:** Point `refill_api.py` to your test/stub API URL for local development.
 
-## 🧪 Testing
+## Testing
 - Add unit tests under `tests/`. Example:
   ```
   tests/
@@ -92,6 +92,6 @@ python pharmacy_menu.py
   pytest -q
   ```
 
-## 👥 Credits
+## Credits
 - Team members listed in the repository: **Ali Raeisdanaei**, **Shahaan Khan**
 
